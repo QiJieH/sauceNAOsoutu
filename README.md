@@ -18,7 +18,7 @@
 
 2.完成CoolQ的安装之后,可以从以下两个链接下载本插件
 >[CoolQ社区发布](https://cqp.cc/t/48345)  
->[Github仓库](https://)  
+>[Github仓库](https://raw.githubusercontent.com/QiJieH/sauceNAOsoutu/master/cpk/io.github.qijieh.saucenaosoutu.cpk)  
 
 3.将.cpk文件拖入到CoolQ安装根目录下的./app/文件夹下即可,之后便能在CoolQ的管理页面开启本插件
 >示例：D:\Program Files\CoolQ Air\app\xxx.cpk  
