@@ -139,6 +139,7 @@ bool msfun::is_register( const PrivateMessageEvent &e )
                         conf.json2file();
                         send_private_message(e.user_id,"已注册为搜图管理员\r\n发送群聊消息\r\n   #搜图开启\r\n   #搜图关闭\r\n来开关该群搜图功能");
                         e.block();
+                        return true;
                     }
                     send_private_message(e.user_id,"已存在于管理列表");
                     return false;
@@ -156,6 +157,24 @@ bool msfun::is_check(const PrivateMessageEvent &e)
                 send_private_message(e.user_id,res);
                 return true;
             }
+
+        if( e.message.find("#搜图") == 0 && is_adminer(e.user_id) )
+            {
+                const auto msg = Message(e.message);
+                for (auto &seg : msg) 
+                    {
+                        if(seg.type == "image")
+                            {
+                                auto str = e.message.substr(7);
+                                conf.get_serch(str);
+                                send_private_message(e.user_id,conf.res);
+                                e.block();
+                                return true;
+                            }
+                    }
+                return false;
+            }
+        return false;
     }
 
 
