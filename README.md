@@ -1,11 +1,15 @@
 ## sauceNAOsoutu
-基于[CoolQ](https://cqp.cc/t/23253)的二次元搜图机器人插件，调用[sauceNAO](https://saucenao.com/)的API接口，使用[richardchien](https://github.com/richardchien)提供的[Cool C++ SDK](https://cqcppsdk.cqp.moe/guide/)开发
+基于[CoolQ](https://cqp.cc/t/23253)的二次元搜图机器人插件，调用[sauceNAO](https://saucenao.com/)的API接口，使用[richardchien](https://github.com/richardchien)提供的[Cool C++ SDK](https://cqcppsdk.cqp.moe/guide/)开发  
+
+
 
 ### 一瞥
-<img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_180348.jpg" width="230" />
+<img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_180348.jpg" width="200" /><img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_181318.jpg" width="200" /><img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_181414.jpg" width="200" /><img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_181609.jpg" width="200" />
 
 
-#### 插件部署方法
+
+#### 插件部署方法  
+
 1.前往CoolQ社区下载 [酷Q Air 小i版] 或 [酷Q Air 图灵版] 当然也可以付费下载更强大的 [酷Q Pro]  
 >[CoolQ社区](https://cqp.cc/t/23253)  
 >本插件均对Air或Pro没有强制要求  
@@ -20,7 +24,10 @@
 
 4.如果在开启插件时出现  [126 can't find library -103]  的错误,请下载  
 >[Visual C++ 可再发行软件包](https://aka.ms/vs/16/release/vc_redist.x86.exe)  
+  
+  
 
-#### 源码编译说明
+#### 源码编译说明  
+
 >各类依赖项已在CmakeLists.txt中设置,请自行查看并导入  
 >VSCode MSVC2019 cmake-3.16.4
