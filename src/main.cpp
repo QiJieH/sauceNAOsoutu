@@ -41,6 +41,7 @@ CQ_INIT
 
         on_private_message([] ( const PrivateMessageEvent &e )
             {   
+                if (e.sub_type == PrivateMessageEvent::SubType::GROUP) { return; }
                 msfun::is_register(e);
                 msfun::is_check(e);
             });

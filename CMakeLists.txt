@@ -12,7 +12,7 @@ include(extern/cqcppsdk/cqcppsdk.cmake) # 包含 SDK 的 CMake 脚本, 必须
 
 include_directories(extern/cqcppsdk/include) # 设置 src 目录为包含目录, 可根据实际情况修改
 
-cq_set_app_id("io.github.qijieh.demo") # 设置 app id, 必须
+cq_set_app_id("io.github.qijieh.saucenaosoutu") # 设置 app id, 必须
 
 file(GLOB_RECURSE SOURCE_FILES src/*.cpp src/*.hpp src/*.h)
 
