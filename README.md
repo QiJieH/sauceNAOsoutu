@@ -2,7 +2,7 @@
 基于[CoolQ](https://cqp.cc/t/23253)的二次元搜图机器人插件，调用[sauceNAO](https://saucenao.com/)的API接口，使用[richardchien](https://github.com/richardchien)提供的[Cool C++ SDK](https://cqcppsdk.cqp.moe/guide/)开发
 
 ### 一瞥
-![](https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_180348.jpg)
+<img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_180348.jpg" width="230" />
 
 
 #### 插件部署方法
