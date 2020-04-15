@@ -28,6 +28,3 @@
   
 
 #### 源码编译说明  
-
->各类依赖项已在CmakeLists.txt中设置,请自行查看并导入  
->VSCode MSVC2019 cmake-3.16.4
