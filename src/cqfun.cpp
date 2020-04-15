@@ -79,7 +79,7 @@ bool msfun::is_command( const GroupMessageEvent &e  )
         
         if(e.message.find("#搜图developer") == 0)
             {
-                send_group_message(e.group_id,"developed by QiJieH\r\npowered by CoolQ\r\nthank for richardchien\r\nGithub:\r\nhttps://github.com/QiJieH");
+                send_group_message(e.group_id,"developed by QiJieH\r\npowered by CoolQ\r\nthank for richardchien\r\nGithub:https://github.com/QiJieH");
                 return true;
             }
         
@@ -149,7 +149,7 @@ bool msfun::is_register( const PrivateMessageEvent &e )
 
 bool msfun::is_check(const PrivateMessageEvent &e)
     {
-        if(e.message.find("#搜图余量") == 0)
+        if(e.message.find("#搜图余量") == 0 && is_adminer(e.user_id))
             {
                 string res;
                 res = "24小时余量：" + to_string(conf.long_limit) + "\r\n30秒内余量：" + to_string(conf.short_limit) + "\r\n累计搜图：" + to_string(conf.num);
