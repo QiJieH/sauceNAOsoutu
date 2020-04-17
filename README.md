@@ -29,7 +29,7 @@
   
 <br>
 
-#### 开发者的另一个搜图插件
->[sauceNAO搜图](https://github.com/QiJieH/sauceNAOsoutu)  
+#### 开发者的另一个搜番插件
+>[traceMOE搜番](https://github.com/QiJieH/sauceNAOsoutu)  
 
 ><img src="https://github.com/QiJieH/traceMOEsoufan/raw/master/READMEIMG/IMG_20200417_203510.jpg" width="350" />&nbsp;<img src="https://github.com/QiJieH/traceMOEsoufan/raw/master/READMEIMG/IMG_20200417_203616.jpg" width="350" />  
