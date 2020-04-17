@@ -1,14 +1,14 @@
 ## sauceNAOsoutu
 基于[CoolQ](https://cqp.cc/t/23253)的二次元搜图机器人插件，调用[sauceNAO](https://saucenao.com/)的API接口，使用[richardchien](https://github.com/richardchien)提供的[Cool C++ SDK](https://cqcppsdk.cqp.moe/guide/)开发  
 
-
+<br>
 
 ### 一瞥
 <img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_180348.jpg" height="380" width="350" />&nbsp;<img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_181414.jpg" height="380" width="350" />  
 
-<img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_181318.jpg" width="350" />&nbsp;<img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_181609.jpg" width="350" height="350" />
+<img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_181318.jpg" width="350" height="350" />&nbsp;<img src="https://github.com/QiJieH/sauceNAOsoutu/raw/master/READMEIMG/IMG_20200415_181609.jpg" width="350" height="350" />
 
-
+<br>
 
 #### 插件部署方法  
 
@@ -27,6 +27,8 @@
 4.如果在开启插件时出现  [126 can't find library -103]  的错误,请下载  
 >[Visual C++ 可再发行软件包](https://aka.ms/vs/16/release/vc_redist.x86.exe)  
   
-  
+<br>
 
-#### 源码编译说明  
+#### 开发者的另一个搜图插件
+>[sauceNAO搜图](https://github.com/QiJieH/sauceNAOsoutu)  
+<img src="https://github.com/QiJieH/traceMOEsoufan/raw/master/READMEIMG/IMG_20200417_203510.jpg" width="350" />&nbsp;<img src="https://github.com/QiJieH/traceMOEsoufan/raw/master/READMEIMG/IMG_20200417_203616.jpg" width="350" />  
