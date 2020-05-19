@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.9)
 
-set(VCPKG_DEFAULT_TRIPLET "x86-windows-static")
-set(CMAKE_TOOLCHAIN_FILE "./vcpkg/scripts/buildsystems/vcpkg.cmake")
 set(VCPKG_TARGET_TRIPLET "x86-windows-static")
+set(CMAKE_TOOLCHAIN_FILE "./vcpkg/scripts/buildsystems/vcpkg.cmake")
+
 
 project(mybot-demo) # 填写项目名称
 
